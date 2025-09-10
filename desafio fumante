@@ -1,0 +1,29 @@
+package exercicio_16;
+
+import java.util.Scanner;
+
+public class execercicio_16 {
+
+    public static void main(String[] args) {
+          Scanner scanner = new Scanner(System.in);
+
+            
+                System.out.print("Quantos cigarros você fuma por dia? ");
+                int cigarrosPorDia = scanner.nextInt();
+
+                System.out.print("Há quantos anos você fuma? ");
+                int anosFumando = scanner.nextInt();
+
+           
+                int totalCigarros = cigarrosPorDia * anosFumando * 365;
+                int minutosPerdidos = totalCigarros * 10;
+                int diasPerdidos = minutosPerdidos / (60 * 24); 
+
+               
+                System.out.println("Você perdeu aproximadamente " + diasPerdidos + " dias de vida fumando.");
+
+                scanner.close();
+            }
+        
+
+    }
