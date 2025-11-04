@@ -1,1 +1,103 @@
+🧮 Estruturas de Dados em Java (Lista, Pilha e Fila)
 
+Este projeto implementa três Tipos Abstratos de Dados (TADs) clássicos — Lista, Pilha e Fila — utilizando vetores em Java, com versões interativas tanto no console quanto em uma interface gráfica (Swing / JFrame).
+
+📚 Conteúdo do Projeto
+
+Lista.java → Classe que armazena até 5 inteiros, com métodos para inserir e mostrar.
+
+Pilha.java → Implementação de uma pilha (LIFO) com empilhar, desempilhar e mostrar.
+
+Fila.java → Implementação de uma fila (FIFO) com enfileirar, desenfileirar e mostrar.
+
+Principal.java → Menu interativo no console para testar as três estruturas.
+
+PrincipalJFrame.java → Interface gráfica em Swing, com botões e área de texto para visualização.
+
+🧩 Funcionalidades
+🟦 Lista
+
+Armazena até 5 números inteiros.
+
+Métodos:
+
+inserir(int valor)
+
+mostrar()
+
+🟨 Pilha
+
+Estrutura LIFO (último a entrar, primeiro a sair).
+
+Métodos:
+
+empilhar(int valor)
+
+desempilhar()
+
+mostrar()
+
+🟩 Fila
+
+Estrutura FIFO (primeiro a entrar, primeiro a sair).
+
+Métodos:
+
+enfileirar(int valor)
+
+desenfileirar()
+
+mostrar()
+
+💻 Execução via Console
+
+Execute a classe Principal.java para usar o menu interativo no terminal:
+
+          MENU PRINCIPAL       
+==============================
+1 - Inserir na Lista
+2 - Mostrar Lista
+3 - Empilhar
+4 - Desempilhar
+5 - Mostrar Pilha
+6 - Enfileirar
+7 - Desenfileirar
+8 - Mostrar Fila
+0 - Sair
+
+🪟 Execução via Interface Gráfica
+
+Execute a classe PrincipalJFrame.java para abrir a janela interativa:
+
+Botões para cada operação (Inserir Lista, Empilhar, Enfileirar, etc.)
+
+Área de texto exibindo o estado atual de cada estrutura.
+
+⚙️ Como Executar no Eclipse / IntelliJ
+
+Crie um novo projeto Java.
+
+Crie o pacote:
+
+TDA
+
+
+Adicione os arquivos .java dentro do pacote.
+
+Execute a classe desejada:
+
+Principal.java → modo console
+
+PrincipalJFrame.java → modo gráfico
+
+🧠 Conceitos Envolvidos
+
+Vetores fixos (int[])
+
+Controle de índices (tamanho, inicio, fim)
+
+Estruturas de dados lineares (Lista, Pilha e Fila)
+
+Manipulação de eventos com ActionListener
+
+Interface gráfica com JFrame, JButton, JTextArea e JOptionPane
